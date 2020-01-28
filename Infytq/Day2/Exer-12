@@ -1,0 +1,22 @@
+//PF-Exer-12
+//This verification is based on string match.
+
+package main
+import ("fmt")
+func main(){
+    //Write your program logic here
+    var a int=3
+    var b int=4
+    var c int=1
+    if(a>b){
+        if(a>c){
+            fmt.Println(a)
+        }else{
+            fmt.Println(c)
+        }
+    }else if(b>c){
+        fmt.Println(b)
+    }else{
+        fmt.Println(c)
+    }
+}
